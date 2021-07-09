@@ -2,12 +2,13 @@
    If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
    This text does not appear on pypi or github. It is a comment.
 
-.. image:: https://travis-ci.org/collective/cusy.exportimport.svg?branch=master
-    :target: https://travis-ci.org/collective/cusy.exportimport
+.. image:: https://github.com/cusyio/cusy.exportimport/workflows/ci/badge.svg
+    :target: https://github.com/cusyio/cusy.exportimport/actions
+    :alt: CI Status
 
-.. image:: https://coveralls.io/repos/github/collective/cusy.exportimport/badge.svg?branch=master
-    :target: https://coveralls.io/github/collective/cusy.exportimport?branch=master
-    :alt: Coveralls
+.. image:: https://codecov.io/gh/cusyio/cusy.exportimport/branch/main/graph/badge.svg?token=KL4QL32DJR
+    :target: https://codecov.io/gh/cusyio/cusy.exportimport
+    :alt: Coverage Status
 
 .. image:: https://img.shields.io/pypi/v/cusy.exportimport.svg
     :target: https://pypi.python.org/pypi/cusy.exportimport/
@@ -28,39 +29,20 @@
 cusy.exportimport
 =================
 
-Tell me what your product does
+Extensions and patches for collective.exportimport
+
 
 Features
 --------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
+- Fix wroing ``@id`` for collections:
+  https://github.com/collective/collective.exportimport/issues/30
 
 
 Installation
 ------------
 
-Install cusy.exportimport by adding it to your buildout::
+Install ``cusy.exportimport`` by adding it to your buildout::
 
     [buildout]
 
@@ -76,16 +58,14 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/cusy.exportimport/issues
-- Source Code: https://github.com/collective/cusy.exportimport
-- Documentation: https://docs.plone.org/foo/bar
+- Issue Tracker: https://github.com/cusyio/cusy.exportimport/issues
+- Source Code: https://github.com/cusyio/cusy.exportimport
 
 
 Support
 -------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+If you are having issues, please let us know by adding a new ticket.
 
 
 License
