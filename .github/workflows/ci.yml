@@ -29,6 +29,8 @@ jobs:
             python-version: 2.7
           - plone-version: "Plone51"
             python-version: 2.7
+          - plone-version: "Plone50"
+            python-version: 2.7
           - plone-version: "Plone43"
             python-version: 2.7
 
