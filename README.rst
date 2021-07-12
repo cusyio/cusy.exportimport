@@ -35,7 +35,7 @@ Extensions and patches for collective.exportimport
 Features
 --------
 
-- Fix wroing ``@id`` for collections:
+- Fix wrong ``@id`` for collections:
   https://github.com/collective/collective.exportimport/issues/30
 
 
