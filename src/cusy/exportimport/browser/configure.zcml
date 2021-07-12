@@ -11,4 +11,12 @@
       directory="static"
       />
 
+  <browser:page
+      class=".export.CusyExportContent"
+      for="zope.interface.Interface"
+      layer="cusy.exportimport.interfaces.ICusyExportimportLayer"
+      name="export_content"
+      permission="cmf.ManagePortal"
+      />
+
 </configure>
