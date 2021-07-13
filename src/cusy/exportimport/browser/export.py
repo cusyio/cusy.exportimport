@@ -19,7 +19,6 @@ class CusyExportContent(ExportContent):
         # Fix the id for collections, which is set to “@@export-content” because of the HypermediaBatch in plone.restapi
         item["@id"] = item_url
 
-
         if "batching" in item:
             try:
                 batching = item["batching"].items()
