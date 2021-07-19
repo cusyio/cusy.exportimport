@@ -9,11 +9,16 @@
   <i18n:registerTranslations directory="locales" />
 
   <include package="collective.exportimport" />
-  <!-- collective.relationhelpers depends on zope.intid >= 4.2.0 -->
+  <!--
+    collective.relationhelpers depends on zope.intid >= 4.2.0
+    So we only included it as dependency for Python 3.
+    If you use Plone 5.2 with Python 2, add the dependency to
+    collective.relationhelpers manually.
+  -->
   <include
       package="collective.relationhelpers"
-        zcml:condition="have plone-52"
-        />
+      zcml:condition="installed collective.relationhelpers"
+      />
   <include package=".browser" />
 
   <include file="permissions.zcml" />

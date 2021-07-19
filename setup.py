@@ -54,7 +54,7 @@ setup(
     install_requires=[
         "setuptools",
         "collective.exportimport",
-        "collective.relationhelpers",
+        "collective.relationhelpers; python_version > '3.0.0'",
     ],
     extras_require={
         "test": [
