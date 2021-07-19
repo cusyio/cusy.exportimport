@@ -12,7 +12,8 @@
     Better import explicit packages or configurations ;)
   -->
   <!--<includeDependencies package="." />-->
-
+  <include package="collective.exportimport" />
+  <include package="collective.relationhelpers" />
   <include package=".browser" />
 
   <include file="permissions.zcml" />
